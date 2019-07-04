@@ -1,39 +1,53 @@
 <!-- Header Start -->
 <header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <!-- header Nav Start -->
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
-                <img src="{{ site.baseurl }}/img/logo.png" alt="Logo" style="width:auto; height:65px">454545454545
-              </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                {% for item in site.data.menu.top %}
-                {% if page.permalink == item.path %}
-                <li class="active"><a href="{{ site.baseurl }}{{item.path}}" class="active">{{item.text}}</a></li>
-                {% else %}
-                <li><a href="{{ site.baseurl }}{{item.path}}">{{item.text}}</a></li>
-                {% endif %}
-                {% endfor %}
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+  <div class="hero-nav">
+    <!-- MAIN MENU LOCATION -->
+    <!-- BEGIN MENU -->
+    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+      <div class="title-bar-left">
+        <a href="index.html"><img src="/img/logo_darkbkg.svg" alt="logo"></a>
+      </div>
+      <div class="title-bar-right data-toggle" data-toggle>
+        <button class="menu-icon" type="button"></button>
+        <div class="title-bar-title">Menu</div>
       </div>
     </div>
-  </div>
+
+    <div class="top-bar" id="main-menu">
+      <div class="logo hide-for-small-only">
+        <a href="/"><img src="/img/logo_lightbkg.svg" alt="Blockchain Holdings Ltd"></a>
+
+      </div>
+      <nav class="top-bar-right">
+        <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li>
+            <a href="#">Corporate</a>
+            <ul class="vertical menu">
+              <li><a href="/team.html#panel-directors">Board of Directors</a></li>
+              <li><a href="/team.html#panel-mgmt">Management Team</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+            <ul class="vertical menu">
+              <li><a href="/about.html">Blockchain Holdings</a></li>
+              <li><a href="/bcx-data.html">BCX Data</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="active">Investors</a>
+            <ul class="vertical menu">
+              <li><a href="/news.html">News Releases</a></li>
+              <!-- <li><a href="/stock-information.html">Stock Information</a></li>
+                        <li><a href="/financial-statements.html">Financial Statements</a></li>
+                        <li><a href="/capital-structure.html">Capital Structure</a></li> -->
+              <li><a href="/reports.html">Reports &amp; Presentations</a></li>
+            </ul>
+          </li>
+          <li class="contact"><a href="/contact.html" class="button success">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 </header><!-- header close -->
