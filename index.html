@@ -1,10 +1,4 @@
----
-layout: page
-title: Home
-permalink: /
-custom_head_owl: true
-custom_head_counterup: true
----
+--- layout: page title: Home permalink: / custom_head_owl: true custom_head_counterup: true ---
 <div class="hero-nav">
   <!-- MAIN MENU LOCATION -->
   <!-- BEGIN MENU -->
@@ -86,8 +80,7 @@ custom_head_counterup: true
   </div>
   <div class="modal-footer">
     <div class="center">
-      <img class="small-icon" alt="email icon" src="/img/emailicon.svg">&nbsp;<a
-        href="mailto:info@blockchainholdingltd.com">info@blockchainholdingltd.com</a>
+      <img class="small-icon" alt="email icon" src="/img/emailicon.svg">&nbsp;<a href="mailto:info@blockchainholdingltd.com">info@blockchainholdingltd.com</a>
     </div>
   </div>
   <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -96,8 +89,9 @@ custom_head_counterup: true
 </div>
 <div class="news">
   <h4>
-    NEWS: Blockchain Holdings Ltd. invests in Airbeam, a 5G infrastructure company <a target="_blank"
-      href="https://finance.yahoo.com/news/blockchain-holdings-announces-airbeam-closes-133000365.html">Learn More</a>
+    NEWS: Blockchain Holdings Ltd. invests in Airbeam, a 5G infrastructure company <a target="_blank" href="https://finance.yahoo.com/news/blockchain-holdings-announces-airbeam-closes-133000365.html">Learn
+      More
+    </a>
   </h4>
 </div>
 <!-- BEGIN FIRST SALE -->
@@ -109,12 +103,14 @@ custom_head_counterup: true
       <h1 class="intro blue-left">About us and our technology.</h1>
     </div>
     <div class="small-12 medium-8 cell">
-      <p>Through our proprietary portal <a href="https://www.bcxdata.com">bcxdata.com</a>, Blockchain Holdings provides
-        investors and fund managers with unique insights into the growing ecosystem of crypto-assets and alt-coins. The
-        portal captures the myriad of different blockchains available, and we use meaningful data to reveal valuable
-        cryptocurrencies ready for investment on a clean and approachable platform. With a portfolio of proprietary
-        tools, including the BCX Index, Developer Interest Index, and the AML Index, we aim to give investors the edge
-        they need in this expanding and explosive market.</p>
+      {{ site.data.home.intro-body | markdownify }}
+      <p>Through our proprietary portal <a href="https://www.bcxdata.com">bcxdata.com</a>, Blockchain Holdings provides investors
+        and fund managers with unique insights into the growing ecosystem of crypto-assets and alt-coins. The portal captures
+        the myriad of different blockchains available, and we use meaningful data to reveal valuable cryptocurrencies ready
+        for investment on a clean and approachable platform. With a portfolio of proprietary tools, including the BCX Index,
+        Developer Interest Index, and the AML Index, we aim to give investors the edge they need in this expanding and explosive
+        market.
+      </p>
       <h4>Global Reach</h4>
       <p>We analyze international blockchain exchanges to give you the global picture.</p>
       <h4>Blockchain Intelligence</h4>
