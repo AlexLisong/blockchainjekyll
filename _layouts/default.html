@@ -8,13 +8,13 @@
 </head>
 
 <body>
+  <div class="hero">
+    {% include header.html %}
 
-  {% include header.html %}
+    {{ content }}
 
-  {{ content }}
-
-  {% include footer.html %}
-
+    {% include footer.html %}
+  </div>
 </body>
 
 </html>
