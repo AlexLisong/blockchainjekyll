@@ -1,4 +1,10 @@
---- layout: page title: Home permalink: / custom_head_owl: true custom_head_counterup: true ---
+---
+layout: page
+title: Home
+permalink: /
+custom_head_owl: true
+custom_head_counterup: true
+---
 <div class="hero-nav">
   <!-- MAIN MENU LOCATION -->
   <!-- BEGIN MENU -->
@@ -122,3 +128,23 @@
     </div>
   </div>
 </div>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+  // Counter up
+  if ($(".counter").length) {
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  }
+</script>
