@@ -1,23 +1,62 @@
 <!-- footer Start -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="footer-manu">
-          <ul>
-            {% for item in site.data.menu.top %}
-            <li><a href="{{ site.baseurl }}{{item.path}}">{{item.text}}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-        <p>Call us anytime at <strong>{{site.data.business.phone_primay}}</strong><br>
-          Or vist us at <a
-            href="http://maps.google.com/?q={{site.data.business.address_full | url_encode}}">{{site.data.business.address_full}}</a>
+<footer class="grid-container section-medium dark-bkg fluid footer-last">
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="small-12 medium-3">
+        <img src="/img/logo_darkbkg.svg" alt="Blockchain Holdings Ltd." class="logo">
+        <p>Sea Meadow House<br>
+          P.O. Box 116<br>
+          Road Town, Tortola, VG 1110
         </p>
       </div>
+      <div class="small-12 medium-3">
+        <h1>Corporate</h1>
+        <ul class="menu vertical">
+          <li><a href="/team.html#panel-mgmt">Management Team</a></li>
+          <li><a href="/team.html#panel-directors">Board of Directors</a></li>
+        </ul>
+        <h1>Investors</h1>
+        <ul class="menu vertical">
+          <li><a href="/news.html">News Releases</a></li>
+          <!-- <li><a href="/stock-information.html">Stock Information</a></li>
+                  <li><a href="/financial-statements.html">Financial Statements</a></li>
+                  <li><a href="/capital-structure.html">Capital Structure</a></li> -->
+          <li><a href="/reports.html">Reports &amp; Presentations</a></li>
+        </ul>
+      </div>
+      <div class="small-12 medium-3">
+        <h1>Projects</h1>
+        <ul class="menu vertical">
+          <li><a href="/about.html">Blockchain Holdings</a></li>
+          <li><a href="/bcx-data.html">BCX Data</a></li>
+        </ul>
+        <h1>General</h1>
+        <ul class="menu vertical">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/news.html">News</a></li>
+        </ul>
+      </div>
+      <div class="small-12 medium-3">
+        <h1>Contact</h1>
+        <ul class="menu vertical">
+          <li><a href="#" data-open="contact-modal">Quick Message</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <!-- <div class="social-horizontal">
+                  <img src="/img/social/fb.png" alt="facebook icon">
+                  <img src="/img/social/twitter.png" alt="twitter icon">
+                  <img src="/img/social/instagram.png" alt="instagram icon">
+              </div> -->
+      </div>
+    </div>
+    <hr class="footer-hr">
+    <div class="grid-container">
+      <p class="pull-left">&copy; 2018 Blockchain Holdings Ltd.</p>
+      <p class="pull-right"><a href="/about.html">About</a>&nbsp;/&nbsp;<a href="/contact.html">Contact</a></p>
     </div>
   </div>
-</footer>
+</footer> <!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
