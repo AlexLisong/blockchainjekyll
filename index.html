@@ -5,175 +5,123 @@ permalink: /
 custom_head_owl: true
 custom_head_counterup: true
 ---
-
-<!-- Slider Start -->
-<section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">{{ site.data.home.title }}</h1>
-          <p class="animated fadeInUp">{{ site.data.home.subtitle }}</p>
-        </div>
-      </div>
+<div class="hero-nav">
+  <!-- MAIN MENU LOCATION -->
+  <!-- BEGIN MENU -->
+  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <div class="title-bar-left">
+      <a href="index.html"><img src="/img/logo_darkbkg.svg" alt="logo"></a>
+    </div>
+    <div class="title-bar-right data-toggle" data-toggle>
+      <button class="menu-icon" type="button"></button>
+      <div class="title-bar-title">Menu</div>
     </div>
   </div>
-</section>
 
-<!-- Wrapper Start -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>{{ site.data.home.intro-title }}</h2>
-            <p>{{ site.data.home.intro-subtitle }}</p>
-          </div>
-          {{ site.data.home.intro-body | markdownify }}
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ site.data.home.intro-img }}" alt="Img">
-        </div>
-      </div><!-- .col-md-5 close -->
+  <div class="top-bar" id="main-menu">
+    <div class="logo hide-for-small-only">
+      <a href="/"><img src="/img/logo_lightbkg.svg" alt="Blockchain Holdings Ltd"></a>
+
     </div>
-  </div>
-</section>
-
-<section id="feature">
-  <div class="row">
-    <div class="content col-md-6 col-md-offset-6">
-      <h2>{{ site.data.home.feature-title }}</h2>
-      <p>{{ site.data.home.feature-subtitle  | markdownify }}</p>
-      <a href="#" class="btn btn-view-works">Start Planning</a>
-    </div>
-  </div>
-</section>
-
-
-<!-- Content Start -->
-
-<section id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        <h2>{{ site.data.home.testimonial-title }}</h2>
-        <p>{{ site.data.home.testimonial-subtitle }}</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="block">
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="fa fa-home"></i>
-                <h4 class="counter">{{ site.data.home.hotels }}</h4>
-                <span>Hotels</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-beer"></i>
-                <h4 class="counter">{{ site.data.home.resturants }}</h4>
-                <span>Resturants</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-university"></i>
-                <h4 class="counter">{{ site.data.home.museums }}</h4>
-                <span>Museums</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-plane"></i>
-                <h4><span class="counter">{{ site.data.home.minutes }}</span> Minutes</h4>
-                <span>Drive from the Airport</span>
-              </div>
-            </li>
-
+    <nav class="top-bar-right">
+      <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li>
+          <a href="#">Corporate</a>
+          <ul class="vertical menu">
+            <li><a href="/team.html#panel-directors">Board of Directors</a></li>
+            <li><a href="/team.html#panel-mgmt">Management Team</a></li>
           </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Shoutout to the {{site.data.business.name}} for
-                such a great demo. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-              <div class="user">
-                <img src="img/twitter-user-1.jpg" alt="Pepole">
-                <p><span>Bob Henson</span> via Twitter</p>
-              </div>
-            </div>
-            <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Static sites are security fortresses! <i class="fa fa-quote-right"
-                  aria-hidden="true"></i> </p>
-              <div class="user">
-                <img src="img/twitter-user-2.jpg" alt="Pepole">
-                <p><span>Clay Risro</span> via Twitter</p>
-              </div>
-            </div>
-            <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> I love not having a CMS to have to update all the
-                time. <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
-              <div class="user">
-                <img src="img/twitter-user-3.jpg" alt="Pepole">
-                <p><span>Rose Ray</span> via Twitter</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+          <ul class="vertical menu">
+            <li><a href="/about.html">Blockchain Holdings</a></li>
+            <li><a href="/bcx-data.html">BCX Data</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Investors</a>
+          <ul class="vertical menu">
+            <li><a href="/news.html">News Releases</a></li>
+            <!-- <li><a href="/stock-information.html">Stock Information</a></li>
+                      <li><a href="/financial-statements.html">Financial Statements</a></li>
+                      <li><a href="/capital-structure.html">Capital Structure</a></li> -->
+            <li><a href="/reports.html">Reports &amp; Presentations</a></li>
+          </ul>
+        </li>
+        <li class="contact"><a href="/contact.html" class="button success">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- END MENU -->
+</div>
+<div class="hero-content">
+  <div class="grid-x">
+    <div class="cell small-12 text-center">
+      <h1>Investment Gateway to the Blockchain Ecosystem</h1>
+      <h2>Revealing the cryptocurrencies of tomorrow ready for investment today</h2>
+    </div>
+    <div class="cell small-12 text-center">
+      <br><br>
+      <a href="#" class="button large" data-open="contact-modal">Get Email Updates</a>
     </div>
   </div>
-</section>
-
-{% include call-to-action.html %}
-
-<!-- Service Start -->
-<section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>{{ site.data.home.services-title }}</h2>
-        <p>{{ site.data.home.services-subtitle }}</p>
-      </div>
-    </div>
-    <div class="row ">
-      {% for item in site.data.services.services %}
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="fa {{item.icon}}"></i>
-          <h4>{{item.title}}</h4>
-          <p>{{item.body}}</p>
-        </div>
-      </div>
-      {% endfor %}
+</div>
+</div> <!-- BEGIN CONTACT - MODAL -->
+<div class="reveal" id="contact-modal" data-reveal>
+  <div class="modal-content">
+    <h1>CONTACT US</h1>
+    <p>We will contact you within 1-2 business days</p>
+    <form id="submit-form">
+      <input type="text" name="name" class="left-half" placeholder="Full name">
+      <input type="text" name="email" class="right-half" placeholder="Your email">
+      <input type="text" name="phone" class="left-half" placeholder="Phone number">
+      <input type="text" name="company" class="right-half" placeholder="Company">
+      <textarea rows="4" name="message" class="full-size" placeholder="Your message"></textarea>
+      <input type="submit" class="center button pop-submit" value="Submit" />
+    </form>
+    <span id="modal-form-notification"></span>
+  </div>
+  <div class="modal-footer">
+    <div class="center">
+      <img class="small-icon" alt="email icon" src="/img/emailicon.svg">&nbsp;<a
+        href="mailto:info@blockchainholdingltd.com">info@blockchainholdingltd.com</a>
     </div>
   </div>
-</section>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="news">
+  <h4>
+    NEWS: Blockchain Holdings Ltd. invests in Airbeam, a 5G infrastructure company <a target="_blank"
+      href="https://finance.yahoo.com/news/blockchain-holdings-announces-airbeam-closes-133000365.html">Learn More</a>
+  </h4>
+</div>
+<!-- BEGIN FIRST SALE -->
+<div class="grid-container section-medium cover-bkg">
 
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
 
-  // Counter up
-  if ($(".counter").length) {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-  }
-</script>
+  <div class="grid-x grid-margin-x grid-margin-y">
+    <div class="small-12 medium-4 grid-padding-x cell">
+      <h1 class="intro blue-left">About us and our technology.</h1>
+    </div>
+    <div class="small-12 medium-8 cell">
+      <p>Through our proprietary portal <a href="https://www.bcxdata.com">bcxdata.com</a>, Blockchain Holdings provides
+        investors and fund managers with unique insights into the growing ecosystem of crypto-assets and alt-coins. The
+        portal captures the myriad of different blockchains available, and we use meaningful data to reveal valuable
+        cryptocurrencies ready for investment on a clean and approachable platform. With a portfolio of proprietary
+        tools, including the BCX Index, Developer Interest Index, and the AML Index, we aim to give investors the edge
+        they need in this expanding and explosive market.</p>
+      <h4>Global Reach</h4>
+      <p>We analyze international blockchain exchanges to give you the global picture.</p>
+      <h4>Blockchain Intelligence</h4>
+      <p>We monitor the security of crypto-assets and alt-coins across the ecosystem.</p>
+      <h4>In Our App</h4>
+      <p>We offer the most complete and accurate dataset in the blockchain industry.</p>
+      <p>We run native nodes of every blockchain we can to get the most in depth detail about on-chain transactions.</p>
+
+    </div>
+  </div>
