@@ -62,7 +62,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: news, name: news, widget: string, hint: "The first chunk of content"}
+          - {label: news, name: news, widget: string, widget: markdown}
         #  - {label: Intro Title, name: intro-title, widget: string, hint: "The first chunk of content"}
         #  - {label: Intro Subtitle, name: intro-subtitle, widget: string, hint: "The first chunk of content"}
           - {label: Intro Body, name: intro-body, widget: markdown}
