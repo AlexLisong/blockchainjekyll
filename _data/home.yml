@@ -1,7 +1,5 @@
 title: Investment Gateway to the Blockchain Ecosystem
 subtitle: Revealing the cryptocurrencies of tomorrow ready for investment today
-intro-title: Editable Static Sites
-intro-subtitle: Update via a web UI
 intro-body: >-
   Through our proprietary portal [bcxdata.com](http://bcxdata.com), Blockchain
   Holdings provides investors and fund managers with unique insights into the
@@ -13,22 +11,16 @@ intro-body: >-
   investors the edge they need in this expanding and explosive market.
 
 
-
-
   #### Global Reach
 
 
   We analyze international blockchain exchanges to give you the global picture.
 
 
-
-
-  #### Blockchain Intelligence
+  #### Blockchain Intelligence 
 
 
   We monitor the security of crypto-assets and alt-coins across the ecosystem.
-
-
 
 
   #### In Our App
@@ -37,22 +29,5 @@ intro-body: >-
   We offer the most complete and accurate dataset in the blockchain industry.
 
 
-
-
   We run native nodes of every blockchain we can to get the most in depth detail
   about on-chain transactions.
-intro-img: /uploads/8649856355_627bcdeadf_h.jpg
-feature-title: This is Editable!
-feature-subtitle: >-
-  Even a complex layout like this is editable with the Netlify CMS, you won't be
-  having client adjust the layout like
-  [Gutenberg](https://wordpress.org/plugins/gutenberg/), but they can still keep
-  things up to date!
-testimonial-title: We are the Best
-testimonial-subtitle: Even these complex icon graphics below can be updated
-hotels: '15'
-resturants: '25'
-museums: '100'
-minutes: '12'
-services-title: Service Offered
-services-subtitle: There is a service.yml that Netlify CMS can edit to change the below
