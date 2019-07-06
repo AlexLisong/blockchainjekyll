@@ -7,22 +7,142 @@ headerSubCopy: Catch up with us anytime, anywhere
 custom_head_owl: true
 ---
 
-{% include global-header.html %}
-
-
-<div class="container">
-  <p>Get the latest informaiton, here we even AJAX a remote API to get the next rocket launch to prove static sites can be dynamic!</p>
-  <div class="well">
-    <!-- Show people static sites can contain live informaiton!!! -->
-    {% include next-launch.html %}
+<div class="hero-content">
+  <div class="grid-x">
+    <div class="cell small-12 text-center">
+      <h1>News</h1>
+      <h2>The latest releases</h2>
+    </div>
+    <div class="cell small-12 text-center">
+      <br><br>
+      <a href="#" class="button large" data-open="contact-modal">Get Email Updates</a>
+    </div>
   </div>
-  {% for post in site.posts %}
-  <div class="post-area">
-    <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-    <p class="post-date">{{ post.date | date_to_long_string }}</p>
-    <p>
-      {{ post.content | strip_html | truncatewords: 50 }}
-    </p>
+</div>
+</div> <!-- BEGIN CONTACT - MODAL -->
+<div class="reveal" id="contact-modal" data-reveal>
+  <div class="modal-content">
+    <h1>CONTACT US</h1>
+    <p>We will contact you within 1-2 business days</p>
+    <form id="submit-form">
+      <input type="text" name="name" class="left-half" placeholder="Full name">
+      <input type="text" name="email" class="right-half" placeholder="Your email">
+      <input type="text" name="phone" class="left-half" placeholder="Phone number">
+      <input type="text" name="company" class="right-half" placeholder="Company">
+      <textarea rows="4" name="message" class="full-size" placeholder="Your message"></textarea>
+      <input type="submit" class="center button pop-submit" value="Submit" />
+    </form>
+    <span id="modal-form-notification"></span>
   </div>
-  {% endfor %}
+  <div class="modal-footer">
+    <div class="center">
+      <img class="small-icon" alt="email icon" src="/img/emailicon.svg">&nbsp;<a
+        href="mailto:info@blockchainholdingltd.com">info@blockchainholdingltd.com</a>
+    </div>
+  </div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="grid-container section-medium cover-bkg block-left">
+  <div class="grid-x grid-margin-x grid-margin-y">
+    <div class="small-12 medium-4 grid-padding-x cell">
+      <h1 class="intro blue-left">Our Latest News Releases</h1>
+    </div>
+    <div class="medium-1 cell"></div>
+    <div class="small-12 medium-6 cell news-cards">
+      {% for post in site.posts %}
+      <div class="card">
+        <h1>{{ post.title }}</h1>
+        <span class="date">March 25th, 2019 9:00 ET</span>
+        <p> {{ post.content | strip_html}}</p>
+        <a target="_blank"
+          href="https://finance.yahoo.com/news/blockchain-holdings-announces-airbeam-closes-133000365.html">Read More
+          &#8250;</a>
+      </div>
+      {% endfor %}
+      <div class="card">
+        <h1>Blockchain Holdings announces Airbeam closes groundbreaking 5G tech deal</h1>
+        <span class="date">March 25th, 2019 9:00 ET</span>
+        <p> Blockchain Holdings Ltd. (the "Company" or "Blockchain Holdings") (BCX.CN) is delighted to confirm the
+          closing of Airbeam 60Ghz Holdings Ltd.'s ("Airbeam") acquisition of 5G-focused wireless technology from a
+          major publicly listed U.S. semiconductor manufacturer.</p>
+        <a target="_blank"
+          href="https://finance.yahoo.com/news/blockchain-holdings-announces-airbeam-closes-133000365.html">Read More
+          &#8250;</a>
+      </div>
+
+      <div class="card">
+        <h1>Blockchain Holdings Ltd. Announces Strategic Investment in Global 5G Rollout</h1>
+        <span class="date">Feb 27th, 2019 10:00 ET</span>
+        <p> Blockchain Holdings Ltd. (the “Company”) (CSE: BCX) is pleased to announce that its wholly-owned subsidiary,
+          Wishland Properties Limited (“WPL”), has entered into a definitive agreement on February 26, 2019 pursuant to
+          which it intends to make an investment in Airbeam 60 GHz Holdings Ltd. (Airbeam 60Ghz).</p>
+        <a target="_blank"
+          href="https://finance.yahoo.com/news/blockchain-holdings-ltd-announces-strategic-192900627.html">Read More
+          &#8250;</a>
+      </div>
+
+      <div class="card">
+        <h1>Khot Announces Name Change, New Stock Symbol and Share Consolidation</h1>
+        <span class="date">May 4th, 2018 17:39 ET</span>
+        <p>Tortola, British Virgin Islands (FSCwire) - Khot Infrastructure Holdings, Ltd. (the “Company”)(CSE: KOT) is
+          pleased to announce that it has implemented the previously-announced name change to "Blockchain Holdings Ltd."
+        </p>
+        <a
+          href="https://www.fscwire.com/newsrelease/khot-announces-name-change-new-stock-symbol-and-share-consolidation">Read
+          More &#8250;</a>
+      </div>
+      <div class="card">
+        <h1>Khot Shareholders Approve All Resolutions Including Change of Name to “Blockchain Holdings Ltd.” at Its
+          Annual General and Special Meeting</h1>
+        <span class="date">April 17, 2018 9:00 EDT</span>
+        <p>Tortola, British Virgin Islands (FSCwire) - Khot Infrastructure Holdings, Ltd. (the “Company”) (CSE: KOT) is
+          delighted to announce at the Company’s annual general and special meeting of shareholders held on April 9,
+          2018 (the “Meeting”), all agenda items and proposals put forward by the Board of Directors, as further
+          described in the Company’s information circular dated March 9, 2018 ...</p>
+        <a
+          href="https://fscwire.com/newsrelease/khot-shareholders-approve-all-resolutions-including-change-name-blockchain-holdings-ltd">Read
+          More &#8250;</a>
+      </div>
+      <div class="card">
+        <h1>KHOT Announces Private Placement of up to CAD$500,000</h1>
+        <span class="date">May 4th, 2018 17:39 ET</span>
+        <p>Tortola, British Virgin Islands (FSCwire) - Khot Infrastructure Holdings, Ltd. (“Khot” or the “Company”)
+          (CSE: KOT) KHOT Infrastructure Holdings, Ltd. (CSE:KOT) (“Khot” or the “Company”) is pleased to announce that
+          further to its news release dated February 2, 2018 announcing a change of business, the Company intends to
+          conduct a non-brokered private placement (the “Private Placement”) of up to 5,000,000 subscription receipts.
+        </p>
+        <a href="https://fscwire.com/newsrelease/khot-announces-private-placement-cad500000">Read More &#8250;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BEGIN EMAIL SIGN UP -->
+<div class="grid-container section-medium fluid sign-up">
+  <div class="grid-container">
+    <div class="grid-x medium-text-center">
+      <div class="cell small-12">
+        <h1>Get Email Updates</h1>
+        <p>Enter your email address below to begin the sign up process</p>
+      </div>
+      <div class="cell small-0 medium-3"></div>
+      <section class="medium small-12 medium-6 cell">
+        <div id="notification"></div>
+        <form id="submit-email">
+          <div class="input-group">
+            <input class="input-group-field large" type="text" name="email" placeholder="Enter your email">
+            <div class="input-group-button">
+              <input type="submit" class="button success" value="Sign Up">
+            </div>
+          </div>
+        </form>
+        <p class='disclaimer'>By providing your e-mail address, you are consenting to receive press releases,
+          presentations and other information concerning Blockchain Holdings Ltd. You may withdraw your consent at any
+          time by using our unsubscribe feature.</p>
+      </section>
+      <div class="cell small-0 medium-3"></div>
+    </div>
+  </div>
 </div>
