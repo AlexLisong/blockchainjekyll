@@ -66,6 +66,7 @@ collections:
         #  - {label: Intro Title, name: intro-title, widget: string, hint: "The first chunk of content"}
         #  - {label: Intro Subtitle, name: intro-subtitle, widget: string, hint: "The first chunk of content"}
           - {label: Intro Body, name: intro-body, widget: markdown}
+          - {label: Pdf, name: pdf, widget: file}
          # - {label: Intro Image, name: intro-img, widget: image}
          # - {label: Feature Title, name: feature-title, widget: string}
          # - {label: Feature Subtitle, name: feature-subtitle, widget: string}
@@ -77,7 +78,7 @@ collections:
          # - {label: Minutes, name: minutes, widget: number, hint: "This is the animated number that counts up"}
          # - {label: Services Title, name: services-title, widget: string}
          # - {label: Services Subtitle, name: services-subtitle, widget: string, hint: "Services can be found in the Global area"}
-      - label: "Abuout Page"
+      - label: "About Page"
         name: "about"
         file: "_data/about.yml"
         fields:
