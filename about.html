@@ -8,8 +8,8 @@ custom_head_counterup: true
 <div class="hero-content">
     <div class="grid-x">
         <div class="cell small-12 text-center">
-            <h1>Investment Gateway to the Blockchain Ecosystem</h1>
-            <h2>Revealing the cryptocurrencies of tomorrow ready for investment today</h2>
+            <h1> {{ site.data.home.title }} </h1>
+            <h2>{{ site.data.home.subtitle }}</h2>
         </div>
     </div>
 </div>
@@ -44,20 +44,7 @@ custom_head_counterup: true
             <h1 class="intro blue-left">About Blockchain Holdings Ltd.</h1>
         </div>
         <div class="small-12 medium-8 cell">
-            <p>Through our proprietary portal bcxdata.com, Blockchain Holdings gives traders and developers a way to
-                quantitatively measure the value of cryptocurrencies and alt-coins.
-                <p>This portal captures the myriad of different blockchains available, and we use meaningful data to
-                    reveal valuable cryptocurrencies ready for investment on a clean and approachable platform.</p>
-                <p>We offer unique insights into the growing ecosystem of crypto-assets, allowing asset managers to
-                    access our data directly, while large funds can connect programmatically to our system. </p>
-                <p>Our proprietary technology includes the BCX Total Crypto Momentum Index, which offers investors a way
-                    to capture a greater returns without the need to understand every crypto project.</p>
-                <p>Meanwhile, our Developer Interest Index measures how committed open source developers are to a
-                    project, so investors can make informed decisions about a project’s financial viability.</p>
-                <p>And our Anti-Money Laundering Index is a black market money tracking tool allowing investors to get
-                    accurate estimates of the coins being used for both legal and illegal activities.</p>
-                <p>Available on a subscription or pay-as-you-go basis, our portfolio of proprietary tools aims to give
-                    investors and fund managers the edge they need in this expanding and explosive market.</p>
+            {{ site.data.home.intro-body | markdownify }}
         </div>
     </div>
 </div>
