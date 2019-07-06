@@ -35,6 +35,10 @@
     {
       "text": "Directory",
       "path": "/directory/"
+    },
+    {
+      "text": "About",
+      "path": "/about/"
     }
   ]
 }
