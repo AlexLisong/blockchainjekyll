@@ -52,10 +52,9 @@ custom_head_owl: false
       {% for post in site.posts %}
       <div class="card">
         <h1>{{ post.title }}</h1>
-        <span class="date">March 25th, 2019 9:00 ET</span>
+        <span class="date">{{post.createdate}}}</span>
         <p> {{ post.content | strip_html  }}</p>
-        <a target="_blank"
-          href="https://finance.yahoo.com/news/blockchain-holdings-announces-airbeam-closes-133000365.html">Read More
+        <a target="_blank" href="{{post.link}}">Read More
           &#8250;</a>
       </div>
       {% endfor %}
