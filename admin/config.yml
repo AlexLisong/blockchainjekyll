@@ -84,6 +84,13 @@ collections:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Intro Body, name: intro-body, widget: markdown}
+      - label: "Team Page"
+        name: "team"
+        file: "_data/team.yml"
+        fields:
+          - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Intro Body, name: intro-body, widget: markdown}
 
       - label: "Documents"
         name: "documents"
