@@ -89,7 +89,7 @@ collections:
         file: "_data/team.yml"
         fields:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
-          - {label: Directors, name: directors-content, widget: markdown}
+          - {label: Directors, name: directors-content, widget: strip_html}
           - {label: Management, name: management-content, widget: markdown}
 
       - label: "Documents"
