@@ -121,7 +121,7 @@ custom_head_counterup: true
                     <h1 class="intro blue-left">Meet Our Dedicated Team</h1>
                 </div>
                 <div class="small-12 medium-8 cell">
-                    {{ site.data.team.management-content| markdownify }}
+                    {{ site.data.team.management-content| strip_html }}
                     <div class="card team">
                         <h3>Wayne Lloyd, CFA</h3>
                         <h4 class="title">CEO</h4>
