@@ -1,0 +1,79 @@
+---
+layout: page
+title: bcx
+permalink: /bcx-data/
+custom_head_owl: true
+custom_head_counterup: true
+---
+<div class="hero-content">
+    <div class="grid-x">
+        <div class="cell small-12 text-center">
+            <h1> {{ site.data.home.title }} </h1>
+            <h2>{{ site.data.home.subtitle }}</h2>
+        </div>
+    </div>
+</div>
+</div> <!-- BEGIN CONTACT - MODAL -->
+<div class="reveal" id="contact-modal" data-reveal>
+    <div class="modal-content">
+        <h1>CONTACT US</h1>
+        <p>We will contact you within 1-2 business days</p>
+        <form id="submit-form">
+            <input type="text" name="name" class="left-half" placeholder="Full name">
+            <input type="text" name="email" class="right-half" placeholder="Your email">
+            <input type="text" name="phone" class="left-half" placeholder="Phone number">
+            <input type="text" name="company" class="right-half" placeholder="Company">
+            <textarea rows="4" name="message" class="full-size" placeholder="Your message"></textarea>
+            <input type="submit" class="center button pop-submit" value="Submit" />
+        </form>
+        <span id="modal-form-notification"></span>
+    </div>
+    <div class="modal-footer">
+        <div class="center">
+            <img class="small-icon" alt="email icon" src="/img/emailicon.svg">&nbsp;<a
+                href="mailto:info@blockchainholdingltd.com">info@blockchainholdingltd.com</a>
+        </div>
+    </div>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="grid-container section-medium cover-bkg">
+    <div class="grid-x grid-margin-x grid-margin-y">
+        <div class="small-12 medium-4 grid-padding-x cell">
+            <h1 class="intro blue-left">BCX Data</h1>
+            <p>To learn more about the product please visit <a href="https://www.bcxdata.com">www.bcxdata.com</a></p>
+        </div>
+        <div class="small-12 medium-8 cell">
+            {{ site.data.bcx-data.intro-body | markdownify }}
+        </div>
+    </div>
+</div>
+
+<!-- BEGIN EMAIL SIGN UP -->
+<div class="grid-container section-medium fluid sign-up">
+    <div class="grid-container">
+        <div class="grid-x medium-text-center">
+            <div class="cell small-12">
+                <h1>Get Email Updates</h1>
+                <p>Enter your email address below to begin the sign up process</p>
+            </div>
+            <div class="cell small-0 medium-3"></div>
+            <section class="medium small-12 medium-6 cell">
+                <div id="notification"></div>
+                <form id="submit-email">
+                    <div class="input-group">
+                        <input class="input-group-field large" type="text" name="email" placeholder="Enter your email">
+                        <div class="input-group-button">
+                            <input type="submit" class="button success" value="Sign Up">
+                        </div>
+                    </div>
+                </form>
+                <p class='disclaimer'>By providing your e-mail address, you are consenting to receive press releases,
+                    presentations and other information concerning Blockchain Holdings Ltd. You may withdraw your
+                    consent at any time by using our unsubscribe feature.</p>
+            </section>
+            <div class="cell small-0 medium-3"></div>
+        </div>
+    </div>
+</div>
