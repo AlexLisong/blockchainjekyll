@@ -92,7 +92,7 @@ collections:
           - {label: Directors, name: directors-content, widget: strip_html}
           - {label: Management, name: management-content, widget: markdown}
       - label: "BCX Data Page"
-        name: "bcx"
+        name: "bcx-data"
         file: "_data/bcx-data.yml"
         fields:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
