@@ -1,15 +1,7 @@
 ---
 layout: post
-title: My Example Post
+title: Blockchain Holdings announces Airbeam closes groundbreaking 5G tech deal
 subtitle: ' '
 author: Admin
 ---
-
-Eos eu docendi tractatos sapientem, **{{site.data.business.phone_primay}}** brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
-
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
-
-No laudem altera adolescens has, volumus lucilius eum no. Eam ei **{{site.data.business.phone_primay}}** nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+Blockchain Holdings Ltd. (the "Company" or "Blockchain Holdings") (BCX.CN) is delighted to confirm the closing of Airbeam 60Ghz Holdings Ltd.'s ("Airbeam") acquisition of 5G-focused wireless technology from a major publicly listed U.S. semiconductor manufacturer.
