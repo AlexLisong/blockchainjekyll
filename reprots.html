@@ -63,9 +63,9 @@ custom_head_counterup: true
                     {% assign index = 0 %}
                     {% for item in site.data.pdf.pdf %}
                     {% if item.type == 'Information' %}
-                    {% index = index + 1%}
+
                     <tr>
-                        <td>{{index}}</td>
+                        <td>{{site.data.pdf.pdf.first }}</td>
                         <td>{{item.summary}}</td>
                         <td><a target="_blank" href="{{item.pdf}}" class="button success small hollow">DOWNLOAD</a>
                         </td>
