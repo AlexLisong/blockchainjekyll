@@ -41,7 +41,7 @@ collections:
             fields:
               - {label: Date, name: date, widget: string}
               - {label: Summary, name: summary, widget: string}
-              - {label: Type, name: type, widget: int}
+              - {label: Type, name: type, widget: string}
               - {label: Pdf, name: pdf, widget: file}
       - label: "Social Media"
         name: "social"
