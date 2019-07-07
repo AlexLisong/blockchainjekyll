@@ -90,8 +90,26 @@ collections:
         file: "_data/team.yml"
         fields:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
-          - {label: Directors, name: directors-content, widget: strip_html}
-          - {label: Management, name: management-content, widget: markdown}
+          - {label: Name, name: name1, widget: string}
+          - {label: Position, name: position1, widget: string}
+          - {label: Introduce, name: intro-body1, widget: markdown}
+          - {label: Name, name: name2, widget: string}
+          - {label: Introduce, name: intro-body2, widget: markdown}
+          - {label: Name, name: name3, widget: string}
+          - {label: Introduce, name: intro-body3, widget: markdown}
+          - {label: Name, name: name4, widget: string}
+          - {label: Introduce, name: intro-body4, widget: markdown}
+          - {label: Name, name: name5, widget: string}
+          - {label: Introduce, name: intro-body5, widget: markdown}
+          - {label: Name, name: name6, widget: string}
+          - {label: Position, name: position6, widget: string}
+          - {label: Introduce, name: intro-body6, widget: markdown}
+          - {label: Name, name: name7, widget: string}
+          - {label: Position, name: position7, widget: string}
+          - {label: Introduce, name: intro-body7, widget: markdown}
+          - {label: Name, name: name8, widget: string}
+          - {label: Position, name: position8, widget: string}
+          - {label: Introduce, name: intro-body8, widget: markdown}
       - label: "BCX Data Page"
         name: "bcx-data"
         file: "_data/bcx-data.yml"
