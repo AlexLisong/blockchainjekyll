@@ -129,6 +129,11 @@ collections:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Intro Body, name: intro-body, widget: markdown}
+      - label: "Report Page"
+        name: "reports"
+        file: "_data/reports.yml"
+        fields:
+          - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
       - label: "Documents"
         name: "documents"
         file: "_data/documents.yml"
