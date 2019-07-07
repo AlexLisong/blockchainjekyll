@@ -39,7 +39,9 @@ collections:
             name: pdf
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
+              - {label: Date, name: date, widget: string}
+              - {label: Summary, name: summary, widget: string}
+              - {label: Type, name: type, widget: int}
               - {label: Pdf, name: pdf, widget: file}
       - label: "Social Media"
         name: "social"
