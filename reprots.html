@@ -63,11 +63,7 @@ custom_head_counterup: true
 
                     {% for item in site.data.pdf.pdf %}
                     {% if item.type == 'Information' %}
-                    {% if item.pdf == site.data.pdf.pdf.first.pdf %}
-                    <tr class="top-row">
-                        {% else %}
                     <tr>
-                        {% endif %}
                         <td>{{item.date }}</td>
                         <td>{{item.summary}}</td>
                         <td><a target="_blank" href="{{item.pdf}}" class="button success small hollow">DOWNLOAD</a>
@@ -88,172 +84,16 @@ custom_head_counterup: true
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="top-row">
-                        <td>March 31st, 2019</td>
-                        <td>For the three months ended March 31, 2019 and 2018</td>
-                        <td><a target="_blank" href="/assets/statements/2019-03-31 Q1 FS MDA BCX.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
+                    {% for item in site.data.pdf.pdf %}
+                    {% if item.type == 'Financial' %}
                     <tr>
-                        <td>Dec 31st, 2018</td>
-                        <td>For the years ended December 31, 2018 and 2017</td>
-                        <td><a target="_blank" href="/assets/statements/2018-12-31 Q4 FS MDA BCX.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
+                        <td>{{item.date }}</td>
+                        <td>{{item.summary}}</td>
+                        <td><a target="_blank" href="{{item.pdf}}" class="button success small hollow">DOWNLOAD</a>
+                        </td>
                     </tr>
-                    <tr>
-                        <td>Sep 30st, 2018</td>
-                        <td>For the nine months ended September 30, 2018</td>
-                        <td><a target="_blank" href="/assets/statements/2018-09-30 Q3 FS MDA BCX.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>June 30st, 2018</td>
-                        <td>For the six months ended June 30, 2018</td>
-                        <td><a target="_blank" href="/assets/statements/2018-06-30 Q2 FS MDA BCX.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>March 31st, 2018</td>
-                        <td>For the three months ended March 31, 2018</td>
-                        <td><a target="_blank" href="/assets/statements/2018-03-31 Q1 FS MDA BCX.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2017</td>
-                        <td>For the years ended December 31, 2017 and 2016</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2017USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2016</td>
-                        <td>For the years ended December 31, 2016 and 2015</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2016USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2015</td>
-                        <td>For the years ended December 31, 2015 and 2014</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2015USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2014</td>
-                        <td>For the years ended December 31, 2014 and 2013</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2014USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2013</td>
-                        <td>For the years ended December 31, 2013 and 2012</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2013USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2012</td>
-                        <td>For the years ended December 31, 2012 and 2011</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2012USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2011</td>
-                        <td>For the years ended December 31, 2011 and 2010</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2011USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2010</td>
-                        <td>For the years ended December 31, 2010 and 2009</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2010USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Dec 31st, 2009</td>
-                        <td>For the years ended December 31, 2009 and 2008</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2009USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2008</td>
-                        <td>For the years ended December 31, 2008 and 2007</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2008USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>April 30, 2008</td>
-                        <td>Management Report April 30, 2008</td>
-                        <td><a target="_blank" href="/assets/statements/management-report-04-30-2008.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>May 28, 2008</td>
-                        <td>Management Report April 30, 2008</td>
-                        <td><a target="_blank" href="/assets/statements/management-report-04-28-2008.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2006</td>
-                        <td>For the years ended December 31, 2006 and 2005</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2006USD.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2006</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2006USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2005</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2005USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2004</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2004USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2003</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2003USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2002</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2002USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2001</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2001USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 2000</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-2000USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-                    <tr>
-                        <td>Dec 31st, 1999</td>
-                        <td>Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash
-                            Flows, Notes to Financial Statements</td>
-                        <td><a target="_blank" href="/assets/statements/Dec31-1999USD-alyattes.pdf"
-                                class="button success small hollow">DOWNLOAD</a></td>
-                    </tr>
-
+                    {% endif %}
+                    {% endfor %}
                 </tbody>
             </table>
         </div>
