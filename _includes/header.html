@@ -21,16 +21,26 @@
       <nav class="top-bar-right">
         <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
           <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
           <li>
+            {% if page.permalink contains '/about' %}
+            <a href="/about.html" class="active">About</a>
+            {% else %}
+            <a href="/about.html">About</a>
+            {% endif %}
+          </li>
+          <li>
+            {% if page.permalink contains '/team' %}
+            <a href="#" class="active">Corporate</a>
+            {% else %}
             <a href="#">Corporate</a>
+            {% endif %}
             <ul class="vertical menu">
               <li><a href="/team.html#panel-directors">Board of Directors</a></li>
               <li><a href="/team.html#panel-mgmt">Management Team</a></li>
             </ul>
           </li>
           <li>
-            {% if page.permalink contains '/about'  or  page.permalink contains '/bcx-data' %}
+            {% if page.permalink contains '/bcx-data' %}
             <a href="#" class="active">Projects</a>
             {% else %}
             <a href="#">Projects</a>
