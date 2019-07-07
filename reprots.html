@@ -61,7 +61,7 @@ custom_head_counterup: true
                                 class="button success small hollow">DOWNLOAD</a></td>
                     </tr>
                     {% for item in site.data.pdf.pdf %}
-                    {% if itme.type == 'Information' %}
+                    {% if item.type == 'Information' %}
                     <tr>
                         <td>{{item.date}}</td>
                         <td>{{item.summary}}</td>
