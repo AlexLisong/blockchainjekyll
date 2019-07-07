@@ -60,12 +60,15 @@ custom_head_counterup: true
                         <td><a target="_blank" href="/assets/statements/BCX Proxy HYTQ_PRX_296893 FINAL.pdf"
                                 class="button success small hollow">DOWNLOAD</a></td>
                     </tr>
-                    {% assign index = 0 %}
+
                     {% for item in site.data.pdf.pdf %}
                     {% if item.type == 'Information' %}
-
+                    {% if item.pdf == site.data.pdf.pdf.first.pdf %}
+                    <tr class="top-row">
+                        {% else %}
                     <tr>
-                        <td>{{site.data.pdf.pdf.first }}</td>
+                        {% endif %}
+                        <td>{{item.date }}</td>
                         <td>{{item.summary}}</td>
                         <td><a target="_blank" href="{{item.pdf}}" class="button success small hollow">DOWNLOAD</a>
                         </td>
