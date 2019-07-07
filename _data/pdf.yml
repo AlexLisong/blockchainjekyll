@@ -1,5 +1,9 @@
 pdf:
-  - name: "2019 \tForm of Proxy"
+  - date: '2019'
     pdf: /uploads/food_safety_plan_workbook_feb11_2016.pdf
-  - name: '2019 Management Information Circular(Meeting Date July 15, 2019)'
+    summary: Form of Proxy
+    type: Information
+  - date: '2019'
     pdf: /uploads/food_safety_plan_workbook_feb11_2016.pdf
+    summary: 'Management Information Circular(Meeting Date July 15, 2019)'
+    type: Information
