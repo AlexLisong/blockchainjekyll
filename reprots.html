@@ -60,6 +60,14 @@ custom_head_counterup: true
                         <td><a target="_blank" href="/assets/statements/BCX Proxy HYTQ_PRX_296893 FINAL.pdf"
                                 class="button success small hollow">DOWNLOAD</a></td>
                     </tr>
+                    {% for item in site.data.pdf.pdf %}
+                    <tr>
+                        <td>{{item.date}}</td>
+                        <td>{{item.summary}}</td>
+                        <td><a target="_blank" href="{{item.pdf}}" class="button success small hollow">DOWNLOAD</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
                     <tr>
                         <td>2019</td>
                         <td>Management Information Circular(Meeting Date July 15, 2019)</td>
