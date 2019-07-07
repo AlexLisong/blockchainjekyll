@@ -4,7 +4,6 @@ title: Reports
 permalink: /reports/
 custom_head_owl: true
 custom_head_counterup: true
-index
 ---
 <div class="hero-content">
     <div class="grid-x">
@@ -61,10 +60,12 @@ index
                         <td><a target="_blank" href="/assets/statements/BCX Proxy HYTQ_PRX_296893 FINAL.pdf"
                                 class="button success small hollow">DOWNLOAD</a></td>
                     </tr>
+                    {% index = 0 %}
                     {% for item in site.data.pdf.pdf %}
                     {% if item.type == 'Information' %}
+                    {% index = index + 1%}
                     <tr>
-                        <td>{{item.date}}</td>
+                        <td>{{index}}</td>
                         <td>{{item.summary}}</td>
                         <td><a target="_blank" href="{{item.pdf}}" class="button success small hollow">DOWNLOAD</a>
                         </td>
