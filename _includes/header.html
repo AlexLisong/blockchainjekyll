@@ -30,14 +30,24 @@
             </ul>
           </li>
           <li>
+            {% if page.permalink contains '/about'  or  page.permalink contains '/bcx-data' %}
+            <a href="#" class="active">Projects</a>
+            {% else %}
             <a href="#">Projects</a>
+            {% endif %}
             <ul class="vertical menu">
               <li><a href="/about.html">Blockchain Holdings</a></li>
               <li><a href="/bcx-data.html">BCX Data</a></li>
             </ul>
           </li>
+
           <li>
+            {% if page.permalink contains '/news'  or  page.permalink contains '/reprots' %}
             <a href="#" class="active">Investors</a>
+            {% else %}
+            <a href="#">Investors</a>
+            {% endif %}
+
             <ul class="vertical menu">
               <li><a href="/news.html">News Releases</a></li>
               <!-- <li><a href="/stock-information.html">Stock Information</a></li>
