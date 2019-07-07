@@ -7,92 +7,76 @@ headerSubCopy: Our friendly staff is waiting to help you.
 headerImage: https://picsum.photos/1600/370
 ---
 
-{% include global-header.html %}
-
-
-<!-- contact form start -->
-<section id="contact-form">
-  <div class="container">
-    <div id="contact-box" class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <h2>Contact our Friendly Staff Today</h2>
-          <form action="/thankyou/" netlify name="contact-form">
-            <div class="form-group">
-              <label for="contact-name">Your Name</label>
-              <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <label for="contact-email">Your Email address</label>
-              <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="Email">
-            </div>
-            <div class="form-group">
-              Comments:
-              <textarea class="form-control" rows="3"></textarea>
-            </div>
-            <select class="form-control">
-              <option>General</option>
-              <option>Marketing</option>
-              <option>Billing</option>
-              <option>Service</option>
-            </select>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                Option one
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Option two
-              </label>
-            </div>
-            <div class="form-group">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" required> Agree to terms
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-default">Send</button>
-          </form>
-        </div>
-
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <div class="block">
-            <h2>Stop By For A visit</h2>
-            <ul class="address-block">
-              <li>
-                <i class="fa fa-map-marker"></i>{{site.data.business.address_full}}
-              </li>
-              <li>
-                <i class="fa fa-envelope-o"></i>Email: {{site.data.business.email_primary}}
-              </li>
-              <li>
-                <i class="fa fa-phone"></i>Phone: {{site.data.business.phone_primay}}
-              </li>
-            </ul>
-
-            <p>
-              <ul class="social-icons">
-                {% for item in site.data.social_media %}
-                <li>
-                  <a href="{{item.link}}" title="{{item.name}}"><i class="fa {{item.icon}}"></i></a>
-                </li>
-                {% endfor %}
-              </ul>
-            </p>
-
-          </div>
-            <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed/v1/place?key={{site.data.business.google_maps_api_key}}&q={{ site.data.business.address_full | url_encode }}" width="555" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
-      </div>
+<div class="hero-content">
+  <div class="grid-x">
+    <div class="cell small-12 text-center">
+      <h1>Contact</h1>
     </div>
   </div>
-</section>
-{% include call-to-action.html %}
+</div>
+</div>
+<div class="grid-container section-medium cover-bkg">
+  <div class="grid-x grid-margin-x grid-margin-y">
+    <div class="small-12 medium-4 grid-padding-x cell side-info">
+      <h1 class="intro blue-left">Contact Us For Any Inquiries</h1>
+      <p class='strong'>Blockchain Holdings Ltd.</p>
+      <p class="contact-info">Email: <a href="mailto:info@blockchainholdings.com">info@blockchainholdings.com</a></p>
+      <p class="contact-info">Phone: <a class="dark-blue" href="tel:16045677893">+1&nbsp;604&nbsp;567&#45;7893</a></p>
+      <p class="address">
+        Sea Meadow House<br>
+        P.O. Box 116<br>
+        Road Town, Tortola, VG 1110
+      </p>
+    </div>
+    <div class="small-12 medium-8 cell">
+      <form class="styled-form" id="submit-form">
+        <label>Your Name
+          <input type="text" name="name" class="left-half" placeholder="Type your full name..."></input>
+        </label>
+        <label>Email
+          <input type="text" name="email" class="right-half" placeholder="Provide your email..."></input>
+        </label>
+        <label>Phone
+          <input type="text" name="phone" class="left-half" placeholder="XXX XXX-XXXX"></input>
+        </label>
+        <label>Comments
+          <textarea rows="4" name="message" class="full-size" placeholder="Provide your message..."></textarea>
+        </label>
+        <input id="newsletter" name="newsletter" type="checkbox"><label for="newsletter">Sign me up for your
+          newsletter</label>
+        <br><br>
+        <input type="submit" class="button large" value="Submit" />
+      </form>
+      <span id="modal-form-notification"></span>
+    </div>
+  </div>
+</div>
+
+
+<!-- BEGIN EMAIL SIGN UP -->
+<div class="grid-container section-medium fluid sign-up">
+  <div class="grid-container">
+    <div class="grid-x medium-text-center">
+      <div class="cell small-12">
+        <h1>Get Email Updates</h1>
+        <p>Enter your email address below to begin the sign up process</p>
+      </div>
+      <div class="cell small-0 medium-3"></div>
+      <section class="medium small-12 medium-6 cell">
+        <div id="notification"></div>
+        <form id="submit-email">
+          <div class="input-group">
+            <input class="input-group-field large" type="text" name="email" placeholder="Enter your email">
+            <div class="input-group-button">
+              <input type="submit" class="button success" value="Sign Up">
+            </div>
+          </div>
+        </form>
+        <p class='disclaimer'>By providing your e-mail address, you are consenting to receive press releases,
+          presentations and other information concerning Blockchain Holdings Ltd. You may withdraw your consent at any
+          time by using our unsubscribe feature.</p>
+      </section>
+      <div class="cell small-0 medium-3"></div>
+    </div>
+  </div>
+</div>
