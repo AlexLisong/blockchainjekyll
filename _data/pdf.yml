@@ -19,95 +19,95 @@ pdf:
     pdf: /uploads/2018-09-30 Q3 FS MDA BCX.pdf
     summary: 'For the nine months ended September 30, 2018'
     type: Financial
-- date: 'June 30st, 2018'
-  pdf: /uploads/2018-06-30 Q2 FS MDA BCX.pdf
-  summary: 'For the six months ended June 30, 2018'
-  type: Financial
-- date: 'March 31st, 2018'
-summary: 'For the three months ended March 31, 2018'
-pdf: /uploads/2018-03-31 Q1 FS MDA BCX.pdf
-type: Financial
-- date: 'Dec 31st, 2017'
-summary: 'For the years ended December 31, 2017 and 2016'
-pdf: /uploads/Dec31-2017USD.pdf
-type: Financial
-- date: 'Dec 31st, 2016'
-summary: 'For the years ended December 31, 2016 and 2015'
-pdf: /uploads/Dec31-2016USD.pdf
-type: Financial
-- date: 'Dec 31st, 2015'
-summary: 'For the years ended December 31, 2015 and 2014'
-pdf: /uploads/Dec31-2015USD.pdf
-type: Financial
-- date: 'Dec 31st, 2014'
-summary: 'For the years ended December 31, 2014 and 2013'
-pdf: /uploads/Dec31-2014USD.pdf
-type: Financial
-- date: 'Dec 31st, 2013'
-summary: 'For the years ended December 31, 2013 and 2012'
-pdf: /uploads/Dec31-2013USD.pdf
-type: Financial
-- date: 'Dec 31st, 2012'
-summary: 'For the years ended December 31, 2012 and 2011'
-pdf: /uploads/Dec31-2012USD.pdf
-type: Financial
-- date: 'Dec 31st, 2011'
-summary: 'For the years ended December 31, 2011 and 2010'
-pdf: /uploads/Dec31-2011USD.pdf
-type: Financial
-- date: 'Dec 31st, 2010'
-summary: 'For the years ended December 31, 2010 and 2009'
-pdf: /uploads/Dec31-2010USD.pdf
-type: Financial
-- date: 'Dec 31st, 2009'
-summary: 'For the years ended December 31, 2009 and 2008'
-pdf: /uploads/Dec31-2009USD.pdf
-type: Financial
-- date: 'Dec 31st, 2008'
-summary: 'For the years ended December 31, 2008 and 2007'
-pdf: /uploads/Dec31-2008USD.pdf
-type: Financial
-- date: 'April 30, 2008'
-summary: 'Management Report April 30, 2008'
-pdf: /uploads/management-report-04-30-2008.pdf
-type: Financial
-- date: 'May 28, 2008'
-summary: 'Management Report April 30, 2008'
-pdf: /uploads/management-report-04-28-2008.pdf
-type: Financial
-- date: 'Dec 31st, 2006'
-summary: 'For the years ended December 31, 2006 and 2005'
-pdf: /uploads/Dec31-2006USD.pdf
-type: Financial
-- date: 'Dec 31st, 2006'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-2006USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 2005'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-2005USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 2004'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-2004USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 2003'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf:/uploads/Dec31-2003USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 2002'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-2002USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 2001'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-2001USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 2000'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-2000USD-alyattes.pdf
-type: Financial
-- date: 'Dec 31st, 1999'
-summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
-pdf: /uploads/Dec31-1999USD-alyattes.pdf
-type: Financial
+  - date: 'June 30st, 2018'
+    pdf: /uploads/2018-06-30 Q2 FS MDA BCX.pdf
+    summary: 'For the six months ended June 30, 2018'
+    type: Financial
+  - date: 'March 31st, 2018'
+    summary: 'For the three months ended March 31, 2018'
+    pdf: /uploads/2018-03-31 Q1 FS MDA BCX.pdf
+    type: Financial
+  - date: 'Dec 31st, 2017'
+    summary: 'For the years ended December 31, 2017 and 2016'
+    pdf: /uploads/Dec31-2017USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2016'
+    summary: 'For the years ended December 31, 2016 and 2015'
+    pdf: /uploads/Dec31-2016USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2015'
+    summary: 'For the years ended December 31, 2015 and 2014'
+    pdf: /uploads/Dec31-2015USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2014'
+    summary: 'For the years ended December 31, 2014 and 2013'
+    pdf: /uploads/Dec31-2014USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2013'
+    summary: 'For the years ended December 31, 2013 and 2012'
+    pdf: /uploads/Dec31-2013USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2012'
+    summary: 'For the years ended December 31, 2012 and 2011'
+    pdf: /uploads/Dec31-2012USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2011'
+    summary: 'For the years ended December 31, 2011 and 2010'
+    pdf: /uploads/Dec31-2011USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2010'
+    summary: 'For the years ended December 31, 2010 and 2009'
+    pdf: /uploads/Dec31-2010USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2009'
+    summary: 'For the years ended December 31, 2009 and 2008'
+    pdf: /uploads/Dec31-2009USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2008'
+    summary: 'For the years ended December 31, 2008 and 2007'
+    pdf: /uploads/Dec31-2008USD.pdf
+    type: Financial
+  - date: 'April 30, 2008'
+    summary: 'Management Report April 30, 2008'
+    pdf: /uploads/management-report-04-30-2008.pdf
+    type: Financial
+  - date: 'May 28, 2008'
+    summary: 'Management Report April 30, 2008'
+    pdf: /uploads/management-report-04-28-2008.pdf
+    type: Financial
+  - date: 'Dec 31st, 2006'
+    summary: 'For the years ended December 31, 2006 and 2005'
+    pdf: /uploads/Dec31-2006USD.pdf
+    type: Financial
+  - date: 'Dec 31st, 2006'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2006USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 2005'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2005USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 2004'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2004USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 2003'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2003USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 2002'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2002USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 2001'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2001USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 2000'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-2000USD-alyattes.pdf
+    type: Financial
+  - date: 'Dec 31st, 1999'
+    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+    pdf: /uploads/Dec31-1999USD-alyattes.pdf
+    type: Financial
