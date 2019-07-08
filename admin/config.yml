@@ -43,7 +43,6 @@ collections:
         #  - {label: Intro Title, name: intro-title, widget: string, hint: "The first chunk of content"}
         #  - {label: Intro Subtitle, name: intro-subtitle, widget: string, hint: "The first chunk of content"}
           - {label: Intro Body, name: intro-body, widget: markdown}
-          - {label: Pdf, name: pdf, widget: file}
          # - {label: Intro Image, name: intro-img, widget: image}
          # - {label: Feature Title, name: feature-title, widget: string}
          # - {label: Feature Subtitle, name: feature-subtitle, widget: string}
