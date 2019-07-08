@@ -18,19 +18,6 @@ collections:
   - label: "Global"
     name: "global"
     files:
-      - label: "Business Info"
-        name: "info"
-        file: "_data/business.yml"
-        fields:
-          - {label: name, name: name, widget: string}
-          - {label: address_full, name: address_full, widget: string, hint: "Example: 333 S. Franklin Street Tampa, FL 33602"}
-          - {label: address_street, name: address_street, widget: string, hint: "Example: 333 S. Franklin Street"}
-          - {label: address_city, name: address_city, widget: string, hint: "Tampa"}
-          - {label: phone_primay, name: phone_primay, widget: string, pattern: ['[(]?\d{3}[-.)]?[ ]?\d{3}[-.]?\d{4}\b', "Must be a phone number"], hint: "(813) 123-4567"}
-          - {label: phone_secondary, name: phone_secondary, widget: string, hint: "(813) 765-4321"}
-          - {label: fax, name: fax, widget: string, hint: "(813) 666-6666"}
-          - {label: email_primary, name: email_primary, widget: string, pattern: ['([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}', "Must be an email address"]}
-          - {label: google_maps_api_key, name: google_maps_api_key, widget: string, hint: "Used to display embeded maps"}
       - label: "PDF file"
         name: "pdf"
         file: "_data/pdf.yml"
@@ -43,28 +30,6 @@ collections:
               - {label: Summary, name: summary, widget: string}
               - {label: Type, name: type, widget: string}
               - {label: Pdf, name: pdf, widget: file}
-      - label: "Social Media"
-        name: "social"
-        file: "_data/social_media.yml"
-        fields:
-          - label: platform
-            name: platform
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Icon, name: icon, widget: string}
-              - {label: Link, name: link, widget: string}
-      - label: "Services"
-        name: "services"
-        file: "_data/services.yml"
-        fields:
-          - label: services
-            name: services
-            widget: list
-            fields:
-              - {label: title, name: title, widget: string}
-              - {label: Icon, name: icon, widget: string}
-              - {label: body, name: body, widget: string}
   - label: "Pages"
     name: "home"
     files:
@@ -134,18 +99,4 @@ collections:
         file: "_data/reports.yml"
         fields:
           - {label: Title, name: title, widget: string, hint: "The Large Text at the top"}
-      - label: "Documents"
-        name: "documents"
-        file: "_data/documents.yml"
-        fields:
-          - {label: intro, name: intro, widget: markdown}
-      - label: "Chart Data"
-        name: "chart"
-        file: "_data/chartdata.yml"
-        fields:
-          - label: Sales
-            name: sales
-            widget: list
-            fields:
-              - {label: Label, name: label, widget: number}
-              - {label: Value, name: value, widget: number}
+      
