@@ -8,7 +8,7 @@ pdf:
     summary: 'Management Information Circular(Meeting Date July 15, 2019)'
     type: Information
   - date: 'March 02, 2020'
-    pdf: /uploads/BCX PR 2020-03-02 Close Private Placement.pdf
+    pdf: /uploads/2020/BCX PR 2020-03-02 Close Private Placement.pdf
     summary: 'Blockchain Holdings Announces Closing of Private Placement'
     type: Financial    
   - date: 'January 17, 2020'
@@ -16,7 +16,7 @@ pdf:
     summary: 'Blockchain Holdings Announces Private Placement Offering'
     type: Financial
   - date: 'November 28, 2019'
-    pdf: /uploads/BCX PR 2019-11-28 PP Close Convertible Debenture FINAL.pdf
+    pdf: /uploads/2020/BCX PR 2019-11-28 PP Close Convertible Debenture FINAL.pdf
     summary: 'Blockchain Holdings Announces Closing of Convertible Debenture Offering'
     type: Financial    
   - date: 'November 12, 2019'
@@ -32,7 +32,7 @@ pdf:
     summary: 'Unaudited Condensed Consolidated Interim Financial Statements'    
     type: Financial      
   - date: 'September 13, 2019'
-    pdf: /uploads/BCX PR 2019-09-13 PP Convertible Debenture FINAL.pdf
+    pdf: /uploads/2020/BCX PR 2019-09-13 PP Convertible Debenture FINAL.pdf
     summary: 'Blockchain Holdings Announces Non-Brokered Private Placement of Convertible Debentures'
     type: Financial   
   - date: 'July 17, 2019'
