@@ -30,6 +30,7 @@ pdf:
   - date: 'September 30, 2019 Q3'
     pdf: /uploads/2020/Q3_2019_IFS.pdf
     summary: 'Unaudited Condensed Consolidated Interim Financial Statements'    
+    type: Financial      
   - date: 'September 13, 2019'
     pdf: /uploads/BCX PR 2019-09-13 PP Convertible Debenture FINAL.pdf
     summary: 'Blockchain Holdings Announces Non-Brokered Private Placement of Convertible Debentures'
@@ -38,7 +39,7 @@ pdf:
     pdf: /uploads/2020/BCX PR 2019-07-17 AGSM Results.pdf
     summary: 'Blockchain Holdings Announces AGSM Results'
     type: Financial   
-  - date: May 13, 2019'
+  - date: May 13, 2019
     pdf: /uploads/2020/BCX PR 2019-05-13 Close Tranche 1 PP FINAL.pdf
     summary: 'Blockchain Holdings Closes First Tranche of Financing'
     type: Financial                   
