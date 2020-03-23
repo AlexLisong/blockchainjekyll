@@ -7,6 +7,11 @@ pdf:
     pdf: /uploads/BCX Information Circular 2019-06-10 FINAL.pdf
     summary: 'Management Information Circular(Meeting Date July 15, 2019)'
     type: Information
+  - date: 'March 20, 2020'
+    pdf: /uploads/2020/20200320 BCX News Release to Acquire TraceSafe FINAL.pdf
+    summary: 'Blockchain Holdings to Acquire COVID-19
+Quarantine Management Product TRACEsafe'
+    type: Financial     
   - date: 'March 02, 2020'
     pdf: /uploads/2020/BCX PR 2020-03-02 Close Private Placement.pdf
     summary: 'Blockchain Holdings Announces Closing of Private Placement'
