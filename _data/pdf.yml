@@ -1,161 +1,175 @@
 pdf:
-  - date: '2019'
+  - date: "2019"
     pdf: /uploads/BCX Proxy HYTQ_PRX_296893 FINAL.pdf
     summary: Form of Proxy
     type: Information
-  - date: '2019'
+  - date: "2019"
     pdf: /uploads/BCX Information Circular 2019-06-10 FINAL.pdf
-    summary: 'Management Information Circular(Meeting Date July 15, 2019)'
+    summary: Management Information Circular(Meeting Date July 15, 2019)
     type: Information
-  - date: 'March 20, 2020'
+  - date: March 20, 2020
     pdf: /uploads/2020/20200320 BCX News Release to Acquire TraceSafe FINAL.pdf
-    summary: 'Blockchain Holdings to Acquire COVID-19 Quarantine Management Product TRACEsafe'
-    type: Financial     
-  - date: 'March 02, 2020'
-    pdf: /uploads/2020/BCX PR 2020-03-02 Close Private Placement.pdf
-    summary: 'Blockchain Holdings Announces Closing of Private Placement'
-    type: Financial    
-  - date: 'January 17, 2020'
-    pdf: /uploads/2020/2010-01-17 Private Placement and LTIP.pdf
-    summary: 'Blockchain Holdings Announces Private Placement Offering'
+    summary: Blockchain Holdings to Acquire COVID-19 Quarantine Management Product
+      TRACEsafe
     type: Financial
-  - date: 'November 28, 2019'
+  - date: March 02, 2020
+    pdf: /uploads/2020/BCX PR 2020-03-02 Close Private Placement.pdf
+    summary: Blockchain Holdings Announces Closing of Private Placement
+    type: Financial
+  - date: January 17, 2020
+    pdf: /uploads/2020/2010-01-17 Private Placement and LTIP.pdf
+    summary: Blockchain Holdings Announces Private Placement Offering
+    type: Financial
+  - date: November 28, 2019
     pdf: /uploads/2020/BCX PR 2019-11-28 PP Close Convertible Debenture FINAL.pdf
-    summary: 'Blockchain Holdings Announces Closing of Convertible Debenture Offering'
-    type: Financial    
-  - date: 'November 12, 2019'
+    summary: Blockchain Holdings Announces Closing of Convertible Debenture Offering
+    type: Financial
+  - date: November 12, 2019
     pdf: /uploads/2020/BCX PR 2019-11-12 Close Airbeam FINAL.pdf
-    summary: 'Blockchain Holdings Closes Strategic Investment in Airbeam'
-    type: Financial   
-  - date: 'September 30, 2019 Q3'
+    summary: Blockchain Holdings Closes Strategic Investment in Airbeam
+    type: Financial
+  - date: September 30, 2019 Q3
     pdf: /uploads/2020/Q3_2019_MDA_A.pdf
-    summary: 'MANAGEMENT’S DISCUSSION AND ANALYSIS'
-    type: Financial  
-  - date: 'September 30, 2019 Q3'
+    summary: MANAGEMENT’S DISCUSSION AND ANALYSIS
+    type: Financial
+  - date: September 30, 2019 Q3
     pdf: /uploads/2020/Q3_2019_IFS.pdf
-    summary: 'Unaudited Condensed Consolidated Interim Financial Statements'    
-    type: Financial      
-  - date: 'September 13, 2019'
+    summary: Unaudited Condensed Consolidated Interim Financial Statements
+    type: Financial
+  - date: September 13, 2019
     pdf: /uploads/2020/BCX PR 2019-09-13 PP Convertible Debenture FINAL.pdf
-    summary: 'Blockchain Holdings Announces Non-Brokered Private Placement of Convertible Debentures'
-    type: Financial   
-  - date: 'July 17, 2019'
+    summary: Blockchain Holdings Announces Non-Brokered Private Placement of
+      Convertible Debentures
+    type: Financial
+  - date: July 17, 2019
     pdf: /uploads/2020/BCX PR 2019-07-17 AGSM Results.pdf
-    summary: 'Blockchain Holdings Announces AGSM Results'
-    type: Financial   
+    summary: Blockchain Holdings Announces AGSM Results
+    type: Financial
   - date: May 13, 2019
     pdf: /uploads/2020/BCX PR 2019-05-13 Close Tranche 1 PP FINAL.pdf
-    summary: 'Blockchain Holdings Closes First Tranche of Financing'
-    type: Financial                   
-  - date: 'June 30, 2019 Q2'
+    summary: Blockchain Holdings Closes First Tranche of Financing
+    type: Financial
+  - date: June 30, 2019 Q2
     pdf: /uploads/2020/Q2_2019_MDA_A.pdf
-    summary: 'MANAGEMENT’S DISCUSSION AND ANALYSIS'
-    type: Financial  
-  - date: 'June 30, 2019 Q2'
+    summary: MANAGEMENT’S DISCUSSION AND ANALYSIS
+    type: Financial
+  - date: June 30, 2019 Q2
     pdf: /uploads/2020/Q2_2019_IFS.pdf
-    summary: 'Unaudited Condensed Consolidated Interim Financial Statements'    
-    type: Financial        
-  - date: 'March 31st, 2019'
+    summary: Unaudited Condensed Consolidated Interim Financial Statements
+    type: Financial
+  - date: March 31st, 2019
     pdf: /uploads/2019-03-31 Q1 FS MDA BCX.pdf
-    summary: 'For the three months ended March 31, 2019 and 2018'
+    summary: For the three months ended March 31, 2019 and 2018
     type: Financial
-  - date: 'Dec 31st, 2018'
+  - date: Dec 31st, 2018
     pdf: /uploads/2018-12-31 Q4 FS MDA BCX.pdf
-    summary: 'For the years ended December 31, 2018 and 2017'
+    summary: For the years ended December 31, 2018 and 2017
     type: Financial
-  - date: 'Sep 30st, 2018'
+  - date: Sep 30st, 2018
     pdf: /uploads/2018-09-30 Q3 FS MDA BCX.pdf
-    summary: 'For the nine months ended September 30, 2018'
+    summary: For the nine months ended September 30, 2018
     type: Financial
-  - date: 'June 30st, 2018'
+  - date: June 30st, 2018
     pdf: /uploads/2018-06-30 Q2 FS MDA BCX.pdf
-    summary: 'For the six months ended June 30, 2018'
+    summary: For the six months ended June 30, 2018
     type: Financial
-  - date: 'March 31st, 2018'
-    summary: 'For the three months ended March 31, 2018'
+  - date: March 31st, 2018
+    summary: For the three months ended March 31, 2018
     pdf: /uploads/2018-03-31 Q1 FS MDA BCX.pdf
     type: Financial
-  - date: 'Dec 31st, 2017'
-    summary: 'For the years ended December 31, 2017 and 2016'
+  - date: Dec 31st, 2017
+    summary: For the years ended December 31, 2017 and 2016
     pdf: /uploads/Dec31-2017USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2016'
-    summary: 'For the years ended December 31, 2016 and 2015'
+  - date: Dec 31st, 2016
+    summary: For the years ended December 31, 2016 and 2015
     pdf: /uploads/Dec31-2016USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2015'
-    summary: 'For the years ended December 31, 2015 and 2014'
+  - date: Dec 31st, 2015
+    summary: For the years ended December 31, 2015 and 2014
     pdf: /uploads/Dec31-2015USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2014'
-    summary: 'For the years ended December 31, 2014 and 2013'
+  - date: Dec 31st, 2014
+    summary: For the years ended December 31, 2014 and 2013
     pdf: /uploads/Dec31-2014USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2013'
-    summary: 'For the years ended December 31, 2013 and 2012'
+  - date: Dec 31st, 2013
+    summary: For the years ended December 31, 2013 and 2012
     pdf: /uploads/Dec31-2013USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2012'
-    summary: 'For the years ended December 31, 2012 and 2011'
+  - date: Dec 31st, 2012
+    summary: For the years ended December 31, 2012 and 2011
     pdf: /uploads/Dec31-2012USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2011'
-    summary: 'For the years ended December 31, 2011 and 2010'
+  - date: Dec 31st, 2011
+    summary: For the years ended December 31, 2011 and 2010
     pdf: /uploads/Dec31-2011USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2010'
-    summary: 'For the years ended December 31, 2010 and 2009'
+  - date: Dec 31st, 2010
+    summary: For the years ended December 31, 2010 and 2009
     pdf: /uploads/Dec31-2010USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2009'
-    summary: 'For the years ended December 31, 2009 and 2008'
+  - date: Dec 31st, 2009
+    summary: For the years ended December 31, 2009 and 2008
     pdf: /uploads/Dec31-2009USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2008'
-    summary: 'For the years ended December 31, 2008 and 2007'
+  - date: Dec 31st, 2008
+    summary: For the years ended December 31, 2008 and 2007
     pdf: /uploads/Dec31-2008USD.pdf
     type: Financial
-  - date: 'April 30, 2008'
-    summary: 'Management Report April 30, 2008'
+  - date: April 30, 2008
+    summary: Management Report April 30, 2008
     pdf: /uploads/management-report-04-30-2008.pdf
     type: Financial
-  - date: 'May 28, 2008'
-    summary: 'Management Report April 30, 2008'
+  - date: May 28, 2008
+    summary: Management Report April 30, 2008
     pdf: /uploads/management-report-04-28-2008.pdf
     type: Financial
-  - date: 'Dec 31st, 2006'
-    summary: 'For the years ended December 31, 2006 and 2005'
+  - date: Dec 31st, 2006
+    summary: For the years ended December 31, 2006 and 2005
     pdf: /uploads/Dec31-2006USD.pdf
     type: Financial
-  - date: 'Dec 31st, 2006'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2006
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2006USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 2005'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2005
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2005USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 2004'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2004
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2004USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 2003'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2003
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2003USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 2002'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2002
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2002USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 2001'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2001
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2001USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 2000'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 2000
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-2000USD-alyattes.pdf
     type: Financial
-  - date: 'Dec 31st, 1999'
-    summary: 'Auditors’ Report, Balance Sheet, Statement of Income and Deficit, Statement of Cash Flows, Notes to Financial Statements'
+  - date: Dec 31st, 1999
+    summary: Auditors’ Report, Balance Sheet, Statement of Income and Deficit,
+      Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-1999USD-alyattes.pdf
     type: Financial
+  - date: January 17, 2020
+    summary: test
+    type: Financial
+    pdf: /uploads/1.jpg
