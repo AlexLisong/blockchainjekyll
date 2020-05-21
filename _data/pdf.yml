@@ -169,7 +169,3 @@ pdf:
       Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-1999USD-alyattes.pdf
     type: Financial
-  - date: January 17, 2020
-    summary: test
-    type: Financial
-    pdf: /uploads/1.jpg
