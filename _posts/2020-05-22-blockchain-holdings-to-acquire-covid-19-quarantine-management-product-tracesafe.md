@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blockchain Holdings to Acquire COVID-19 Quarantine Management Product TRACEsafe
-createdate: March 20, 2020
-link: https://www.blockchainholdingsltd.com/uploads/2020/20200320%20BCX%20News%20Release%20to%20Acquire%20TraceSafe%20FINAL.pdf
+title: Blockchain Holdings Announces Closing of Private Placement
+createdate: March 02, 2020
+link: https://www.blockchainholdingsltd.com/uploads/2020/BCX%20PR%202020-03-02%20Close%20Private%20Placement.pdf
 ---
-[click to read](https://www.blockchainholdingsltd.com/uploads/2020/20200320%20BCX%20News%20Release%20to%20Acquire%20TraceSafe%20FINAL.pdf)
+[Click to read](https://www.blockchainholdingsltd.com/uploads/2020/BCX%20PR%202020-03-02%20Close%20Private%20Placement.pdf)
