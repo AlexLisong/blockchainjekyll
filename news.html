@@ -49,7 +49,8 @@ custom_head_owl: false
     </div>
     <div class="medium-1 cell"></div>
     <div class="small-12 medium-6 cell news-cards">
-      {% for post in site.posts %}
+      {% assign sorted = (site.posts | sort: 'createdate') | reverse %}
+      {% for post in sorted %}
       <div class="card">
         <h1>{{ post.title }}</h1>
         <span class="date">{{post.createdate}}</span>
