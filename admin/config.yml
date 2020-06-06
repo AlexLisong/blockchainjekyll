@@ -14,7 +14,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Create Date", name: "createdate", widget: "string", required: false}
       - {label: "Link", name: "link", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Sort Order", name: "sortorder", widget: "string", required: false}      
+      - {label: "Body", name: "body", widget: "markdown", required: false}      
   - label: "Global"
     name: "global"
     files:
