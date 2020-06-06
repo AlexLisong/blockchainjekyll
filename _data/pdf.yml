@@ -7,26 +7,6 @@ pdf:
     pdf: /uploads/BCX Information Circular 2019-06-10 FINAL.pdf
     summary: Management Information Circular(Meeting Date July 15, 2019)
     type: Information
-  - date: March 20, 2020
-    pdf: /uploads/2020/20200320 BCX News Release to Acquire TraceSafe FINAL.pdf
-    summary: Blockchain Holdings to Acquire COVID-19 Quarantine Management Product TRACEsafe
-    type: Financial
-  - date: March 02, 2020
-    pdf: /uploads/2020/BCX PR 2020-03-02 Close Private Placement.pdf
-    summary: Blockchain Holdings Announces Closing of Private Placement
-    type: Financial
-  - date: January 17, 2020
-    pdf: /uploads/2020/2010-01-17 Private Placement and LTIP.pdf
-    summary: Blockchain Holdings Announces Private Placement Offering
-    type: Financial
-  - date: November 28, 2019
-    pdf: /uploads/2020/BCX PR 2019-11-28 PP Close Convertible Debenture FINAL.pdf
-    summary: Blockchain Holdings Announces Closing of Convertible Debenture Offering
-    type: Financial
-  - date: November 12, 2019
-    pdf: /uploads/2020/BCX PR 2019-11-12 Close Airbeam FINAL.pdf
-    summary: Blockchain Holdings Closes Strategic Investment in Airbeam
-    type: Financial
   - date: September 30, 2019 Q3
     pdf: /uploads/2020/Q3_2019_MDA_A.pdf
     summary: MANAGEMENT’S DISCUSSION AND ANALYSIS
@@ -34,18 +14,6 @@ pdf:
   - date: September 30, 2019 Q3
     pdf: /uploads/2020/Q3_2019_IFS.pdf
     summary: Unaudited Condensed Consolidated Interim Financial Statements
-    type: Financial
-  - date: September 13, 2019
-    pdf: /uploads/2020/BCX PR 2019-09-13 PP Convertible Debenture FINAL.pdf
-    summary: Blockchain Holdings Announces Non-Brokered Private Placement of Convertible Debentures
-    type: Financial
-  - date: July 17, 2019
-    pdf: /uploads/2020/BCX PR 2019-07-17 AGSM Results.pdf
-    summary: Blockchain Holdings Announces AGSM Results
-    type: Financial
-  - date: May 13, 2019
-    pdf: /uploads/2020/BCX PR 2019-05-13 Close Tranche 1 PP FINAL.pdf
-    summary: Blockchain Holdings Closes First Tranche of Financing
     type: Financial
   - date: June 30, 2019 Q2
     pdf: /uploads/2020/Q2_2019_MDA_A.pdf
