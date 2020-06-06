@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blockchain Holdings Ltd. Announces Strategic Investment in Global 5G Rollout
+title: Blockchain Holdings Announces Strategic Investment in Global 5G Rollout
 createdate: Feb 27th, 2019 10:00 ET
 link: https://finance.yahoo.com/news/blockchain-holdings-ltd-announces-strategic-192900627.html
 sortorder: "20190226"
