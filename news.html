@@ -49,7 +49,7 @@ custom_head_owl: false
     </div>
     <div class="medium-1 cell"></div>
     <div class="small-12 medium-6 cell news-cards">
-      {% assign sorted = (site.posts | sort: 'createdate') | reverse %}
+      {% assign sorted = (site.posts | sort: 'sortorder') | reverse %}
       {% for post in sorted %}
       <div class="card">
         <h1>{{ post.title }}</h1>
