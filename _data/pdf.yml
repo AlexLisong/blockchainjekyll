@@ -139,3 +139,7 @@ pdf:
     date: December 31, 2019
     summary: For the years ended December 31, 2019 and 2018
     type: Financial
+  - date: December 31, 2019
+    type: MANAGEMENT’S DISCUSSION AND ANALYSIS
+    summary: For the years ended December 31, 2019 and 2018
+    pdf: /uploads/2019-12-31-ye-md-a-bcx.pdf
