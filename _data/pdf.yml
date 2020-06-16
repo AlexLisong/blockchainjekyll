@@ -135,3 +135,7 @@ pdf:
       Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-1999USD-alyattes.pdf
     type: Financial
+  - pdf: /uploads/2019-12-31-ye-financial-statements-bcx.pdf
+    date: December 31, 2019
+    summary: For the years ended December 31, 2019 and 2018
+    type: Financial
