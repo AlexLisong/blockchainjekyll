@@ -7,6 +7,14 @@ pdf:
     pdf: /uploads/BCX Information Circular 2019-06-10 FINAL.pdf
     summary: Management Information Circular(Meeting Date July 15, 2019)
     type: Information
+  - pdf: /uploads/2019-12-31-ye-financial-statements-bcx.pdf
+    date: December 31, 2019
+    summary: For the years ended December 31, 2019 and 2018
+    type: Financial
+  - date: December 31, 2019
+    type: MANAGEMENT’S DISCUSSION AND ANALYSIS
+    summary: For the years ended December 31, 2019 and 2018
+    pdf: /uploads/2019-12-31-ye-md-a-bcx.pdf
   - date: September 30, 2019 Q3
     pdf: /uploads/2020/Q3_2019_MDA_A.pdf
     summary: MANAGEMENT’S DISCUSSION AND ANALYSIS
@@ -135,11 +143,3 @@ pdf:
       Statement of Cash Flows, Notes to Financial Statements
     pdf: /uploads/Dec31-1999USD-alyattes.pdf
     type: Financial
-  - pdf: /uploads/2019-12-31-ye-financial-statements-bcx.pdf
-    date: December 31, 2019
-    summary: For the years ended December 31, 2019 and 2018
-    type: Financial
-  - date: December 31, 2019
-    type: MANAGEMENT’S DISCUSSION AND ANALYSIS
-    summary: For the years ended December 31, 2019 and 2018
-    pdf: /uploads/2019-12-31-ye-md-a-bcx.pdf
